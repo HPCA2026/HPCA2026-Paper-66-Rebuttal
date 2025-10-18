@@ -1,7 +1,7 @@
 
 # Actual Measurement Results of HR-DCIM Silicon Verification
 
-&nbsp;&nbsp; This document provides the measured results of HR-DCIM silicon verification. The measurement report includes three parts: *1) Chip Micrograph and Summary of Silicon Verification;* *2) Test Platform Setup for Silicon Verification;* *3) Measurement Results of Silicon Verification.* **Key measured metrics include: area/energy efficiency, accuracy, cell error distribution, bit error rate (BER), and iteration latency.** Compared to the simulation results presented in the paper, **the average deviation between simulation and actual silicon verification results is less than 2%.**
+&nbsp;&nbsp; This document provides the measured results of HR-DCIM silicon verification. The measurement report includes three parts: *1) Chip Micrograph and Summary of Silicon Verification;* *2) Test Platform Setup for Silicon Verification;* *3) Measurement Results of Silicon Verification.* **Key measured metrics include: area/energy efficiency, accuracy, cell error distribution, bit error rate (BER), and iteration latency.** Compared to the simulation results presented in our paper, **the average deviation between simulation and actual silicon verification results is less than 2%.**
 
 ## 1. Chip Micrograph and Summary of Silicon Verification
 
@@ -31,7 +31,7 @@
 
 ### 3.1 Accuracy Measurement versus Block Bit-widths for BF16 and INT8
 
-&nbsp;&nbsp; This part presents the actual measured accuracy of HR-DCIM silicon verification. As mentioned in the paper, for the same design, we can select any block bit-widths (4b, 8b, 12b, and 16b) for HR-DCIM based on reliability requirements. Therefore, we evaluated the actual measured accuracy versus operating voltages with different block bit-width parameter settings for HR-DCIM chip, including gating error correction logic (i.e., block bit-width = 0b), block bit-width = 4b, block bit-width = 8b, block bit-width = 12b, and block bit-width = 16b. Figure 3 and Figure 4 illustrate the actual measured accuracy under different voltages with different block bit-widths and voltages for BF16 and INT8 formats, respectively. **Compared the simulation results with block bit-width = 8b in the paper, the average accuracy deviation of the simulation and the measurement results of silicon verification is less than 2%.**
+&nbsp;&nbsp; This part presents the actual measured accuracy of HR-DCIM silicon verification. As mentioned in our paper, for the same design, we can select any block bit-widths (4b, 8b, 12b, and 16b) for HR-DCIM based on reliability requirements. Therefore, we evaluated the actual measured accuracy versus operating voltages with different block bit-width parameter settings for HR-DCIM chip, including gating error correction logic (i.e., block bit-width = 0b), block bit-width = 4b, block bit-width = 8b, block bit-width = 12b, and block bit-width = 16b. Figure 3 and Figure 4 illustrate the actual measured accuracy under different voltages with different block bit-widths and voltages for BF16 and INT8 formats, respectively. **Compared the simulation results with block bit-width = 8b in our paper, the average accuracy deviation of the simulation and the measurement results of silicon verification is less than 2%.**
 
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-BF16.png" alt="Editor" width="600">
@@ -50,7 +50,7 @@
 
 ### 3.2 Measurements Results of Cell Error Distribution and BER  
 
-&nbsp;&nbsp; This part shows the actual cell error distribution and bit error rate (BER) of HR-DCIM silicon verification under different operating voltages. For the BER evaluation, we also select different block bit-width parameter settings for the HR-DCIM chip, similar to the accuracy evaluation in Sec.3.1.  Figure 5 illustrate the measured cell error distribution versus voltage scaling (Left) and the BER versus voltage scaling with different block bit-widths (Right). **Compared the simulation results with block bit-width = 8b in the paper, the average BER deviation of the simulation and the measurement results of silicon verification is less than 1.86%.**
+&nbsp;&nbsp; This part shows the actual cell error distribution and bit error rate (BER) of HR-DCIM silicon verification under different operating voltages. For the BER evaluation, we also select different block bit-width parameter settings for the HR-DCIM chip, similar to the accuracy evaluation in Sec.3.1.  Figure 5 illustrate the measured cell error distribution versus voltage scaling (Left) and the BER versus voltage scaling with different block bit-widths (Right). **Compared the simulation results with block bit-width = 8b in our paper, the average BER deviation of the simulation and the measurement results of silicon verification is less than 1.86%.**
 
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/BER-Cell%20Error%20Distribution.png" alt="Editor" width="600">
@@ -61,7 +61,7 @@
 
 ### 3.3 Actual Iteration Latency Measurement versus Block Bit-widths
 
-&nbsp;&nbsp;  Figure 6 shows the measured average iteration latency of HR-DCIM silicon verification across different block bit-widths. Our silicon-verified HR-DCIM features 137b×128 CIM macros with the correction hardware parallelism = 8, as mentioned in the paper. The theoretical worst-case iteration latency is shown in Figure 6-Right. **Even using the smallest block bit-width (i.e., 4b) with the highest aliasing degree (137b / 4b ≈ 35), its worst-case iteration latency is still much less than CIM bit-serial computing cycles.** In other words, **the iteration correction can be fully overlapped by CIM bit-serial computation without introducing additional latency.**
+&nbsp;&nbsp;  Figure 6 shows the measured average iteration latency of HR-DCIM silicon verification across different block bit-widths. Our silicon-verified HR-DCIM features 137b×128 CIM macros with the correction hardware parallelism = 8, as mentioned in our paper. The theoretical worst-case iteration latency is shown in Figure 6-Right. **Even using the smallest block bit-width (i.e., 4b) with the highest aliasing degree (137b / 4b ≈ 35), its worst-case iteration latency is still much less than CIM bit-serial computing cycles.** In other words, **the iteration correction can be fully overlapped by CIM bit-serial computation without introducing additional latency.**
 
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Latency.png" alt="Editor" width="600">
