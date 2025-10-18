@@ -39,8 +39,10 @@
 <div align=center>
   Figure 3 Accuracy measurement results of silicon verification under different operating voltages and block bit-widths for the BF16 format.  
 </div>  
-  
-  
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-INT8.png" alt="Editor" width="600">
 </div>
