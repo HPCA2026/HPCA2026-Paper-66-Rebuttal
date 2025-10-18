@@ -37,8 +37,8 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-BF16.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 3 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width settings for the BF16 format.
-</div>
+  Figure 3 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width settings for the BF16 format.  
+</div>  
 
 
 <div align="center">
@@ -67,7 +67,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Latency.png" alt="Editor" width="600">
 </div>
 <div align=center>
-    Figure 6 *Left*: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. *Right*: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
+    Figure 6 Left: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. *Right*: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
 </div>
 
 
