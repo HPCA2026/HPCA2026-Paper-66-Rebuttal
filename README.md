@@ -23,7 +23,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Test%20Platform.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 2 Test platform for the fabricated test chip. The FPGA sends control signals and data to the test chip. The DC power supplies 0.55­1.0V voltages for the test chip. The results from the test chip are collected by the FPGA and then sent to the computer.
+  Figure 2 Test platform for the fabricated test chip. The FPGA sends control signals and data to the test chip. The DC power supplies 0.55~­1.0V voltages for the test chip. The results from the test chip are collected by the FPGA and then sent to the computer.
 </div>
 
 
