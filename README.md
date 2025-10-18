@@ -50,7 +50,7 @@
 
 ### 3.2 Measurements Results of Cell Error Distribution and BER  
 
-&nbsp;&nbsp; This part shows the actual cell error distribution and bit error rate (BER) of HR-DCIM silicon verification under different operating voltages. For the BER evaluation, we also select different block bit-width parameter settings for the HR-DCIM chip, similar to the accuracy evaluation in Sec.3.1.  Figure 5 illustrate the measured cell error distribution versus voltage scaling (Left) and the BER versus voltage scaling with different block bit-widths (Right). **Compared the simulation results with block bit-width = 8b in our paper, the average BER deviation of the simulation and the measurement results of silicon verification is less than 1.86%.**
+&nbsp;&nbsp; This part shows the actual cell error distribution and bit error rate (BER) of HR-DCIM silicon verification under different operating voltages. For the BER evaluation, we also select different block bit-width parameter settings for the HR-DCIM chip, similar to the accuracy evaluation in Sec.3.1.  Figure 5 illustrate the measured cell error distribution versus voltage scaling (Left) and the BER versus voltage scaling with different block bit-widths (Right). **Comparing the simulation results with block bit-width = 8b in our paper, the average BER deviation of the simulation and the measurement results of silicon verification is less than 1.86%.**
 
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/BER-Cell%20Error%20Distribution.png" alt="Editor" width="600">
