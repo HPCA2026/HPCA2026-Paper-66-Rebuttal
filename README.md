@@ -11,7 +11,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Die%20Photo.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 1 HR-DCIM’s chip micrograph, voltage-frequency scaling curve, and specifications.
+  Figure 1: HR-DCIM’s chip micrograph, voltage-frequency scaling curve, and specifications.
 </div>
 
 
@@ -23,7 +23,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Test%20Platform.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 2 Test platform for the fabricated test chip. The FPGA sends control signals and data to the test chip. The DC power supplies 0.55~­1.0V voltages for the test chip. The results from the test chip are collected by the FPGA and then sent to the computer.
+  Figure 2: Test platform for the fabricated test chip. The FPGA sends control signals and data to the test chip. The DC power supplies 0.55~­1.0V voltages for the test chip. The results from the test chip are collected by the FPGA and then sent to the computer.
 </div>
 
 
@@ -37,7 +37,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-BF16.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 3 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the BF16 format.  
+  Figure 3: Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the BF16 format.  
 </div>  
 
 &nbsp;
@@ -45,7 +45,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-INT8.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 4 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the INT8 format.
+  Figure 4: Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the INT8 format.
 </div>
 
 ### 3.2 Measurements Results of Cell Error Distribution and BER  
@@ -56,7 +56,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/BER-Cell%20Error%20Distribution.png" alt="Editor" width="600">
 </div>
 <div align=center>
- Figure 5 Left: Cell error distribution versus operating voltages of HR-DCIM silicon verification. Right: BER versus operating voltages of HR-DCIM silicon verification with different block bit-width parameter settings.
+ Figure 5: Left: Cell error distribution versus operating voltages of HR-DCIM silicon verification. Right: BER versus operating voltages of HR-DCIM silicon verification with different block bit-width parameter settings.
 </div>
 
 ### 3.3 Actual Iteration Latency Measurement versus Block Bit-widths
@@ -67,7 +67,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Latency.png" alt="Editor" width="600">
 </div>
 <div align=center>
-    Figure 6 Left: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. Right: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
+    Figure 6: Left: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. Right: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
 </div>
 
 
