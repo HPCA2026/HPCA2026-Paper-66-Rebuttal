@@ -56,7 +56,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/BER-Cell%20Error%20Distribution.png" alt="Editor" width="600">
 </div>
 <div align=center>
- Figure 5 Left: Cell error distribution versus operating voltages of HR-DCIM silicon verification. Right: BER versus operating voltages of HR-DCIM silicon verification with different block bit-width parameter settings for HR-DCIM chip.
+ Figure 5 *Left*: Cell error distribution versus operating voltages of HR-DCIM silicon verification. *Right*: BER versus operating voltages of HR-DCIM silicon verification with different block bit-width parameter settings for HR-DCIM chip.
 </div>
 
 ### 3.3 Actual Iteration Latency Measurement versus Block Bit-widths
@@ -67,7 +67,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Latency.png" alt="Editor" width="600">
 </div>
 <div align=center>
-    Figure 6 Left: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. Right: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
+    Figure 6 *Left*: Average iteration latency versus block bit-widths of HR-DCIM silicon verification. *Right*: Theoretical worst iteration latency under different block bit-widths for HR-DCIM chip, where we use the ceiling function to round it up to the nearest integer, thereby ensuring our theoretical model covers the worst-case latency boundary.
 </div>
 
 
