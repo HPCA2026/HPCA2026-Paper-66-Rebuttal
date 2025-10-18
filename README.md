@@ -37,7 +37,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-BF16.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 3 Accuracy measurement results of silicon verification under different operating voltages and block bit-widths for the BF16 format.  
+  Figure 3 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the BF16 format.  
 </div>  
 
 &nbsp;
@@ -45,7 +45,7 @@
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Accuracy-INT8.png" alt="Editor" width="600">
 </div>
 <div align=center>
-  Figure 4 Accuracy measurement results of silicon verification under different operating voltages and block bit-widths for the INT8 format.
+  Figure 4 Accuracy measurement results of HR-DCIM silicon verification under different operating voltages and block bit-width parameter settings for the INT8 format.
 </div>
 
 ### 3.2 Measurements Results of Cell Error Distribution and BER  
