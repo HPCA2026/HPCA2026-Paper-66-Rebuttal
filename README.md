@@ -1,7 +1,7 @@
 
 # Actual Measurement Results of HR-DCIM Silicon Verification
 
-&nbsp;&nbsp; This document provides the measured results of HR-DCIM silicon verification. This measurement report includes three parts: *1) Chip Micrograph and Summary of Silicon Verification;* *2) Test Platform Setup for Silicon Verification;* *3) Measurement Results of Silicon Verification.* **Key measured metrics include: accuracy, cell error distribution, bit error rate (BER), and iteration latency.** **Compared to corresponding simulation results presented in our paper, the average deviation between simulation and actual silicon verification results is less than 2%.**
+&nbsp;&nbsp; This document provides the measured results of HR-DCIM silicon verification. This measurement report includes three parts: *1) Chip Micrograph and Summary of Silicon Verification;* *2) Test Platform Setup for Silicon Verification;* *3) Measurement Results of Silicon Verification.* **Key measured metrics include: accuracy, cell error distribution, bit error rate (BER), and iteration latency.** **Compared to the corresponding simulation results presented in our paper, the average deviation between simulation and actual silicon verification results is less than 2%.**
 
 ## 1. Chip Micrograph and Summary of Silicon Verification
 
@@ -17,7 +17,7 @@
 
 ## 2. Test Platform Setup for Silicon Verification
 
-&nbsp;&nbsp; Figure 2 illustrates the test platform for the fabricated HR-DCIM silicon verification. The system is composed of a HR-DCIM test chip, Xilinx VC709 FPGA board, DC power, oscilloscope, and host computer. The test dataset and NN model are stored in the FPGA board's DDR3 memory. The FPGA sends control signals and data to the HR-DCIM test chip board via the FPGA mezzanine connector (FMC). The DC power supplies 0.55~1.0V core voltage for the test chip. The oscilloscope observes the test chip's state signals. The computer uses Vivado 2020.1 to generate bitstream and program it into the FPGA board to set up the test platform. During computation, the test chip sends computing results to the FPGA. The computer receives the results transferred from the FPGA and probes FPGA's internal key signals. The screen displays the results and signals in Vivado, which can be used for further analysis.
+&nbsp;&nbsp; Figure 2 illustrates the test platform for the fabricated HR-DCIM silicon verification. The system is composed of an HR-DCIM test chip, an Xilinx VC709 FPGA board, a DC power, an oscilloscope, and a host computer. The test dataset and NN model are stored in the FPGA board's DDR3 memory. The FPGA sends control signals and data to the HR-DCIM test chip board via the FPGA mezzanine connector (FMC). The DC power supplies 0.55~1.0V core voltage for the test chip. The oscilloscope observes the test chip's state signals. The computer uses Vivado 2020.1 to generate bitstream and program it into the FPGA board to set up the test platform. During computation, the test chip sends computing results to the FPGA. The computer receives the results transferred from the FPGA and probes FPGA's internal key signals. The screen displays the results and signals in Vivado, which can be used for further analysis.
 
 <div align="center">
 	<img src="https://github.com/HPCA2026/HPCA2026-Paper-66-Rebuttal/blob/main/images/Test%20Platform.png" alt="Editor" width="600">
